@@ -1,0 +1,23 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "useTabs": false,
+  "trailingComma": "none",
+  "bracketSameLine": true,
+  "printWidth": 150,
+  "overrides": [
+    {
+      "files": "server/**/**/*.js",
+      "options": {
+        "printWidth": 180,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "semi": false,
+        "singleAttributePerLine": false,
+        "trailingComma": "none",
+        "arrowParens": "always"
+      }
+    }
+  ]
+}
